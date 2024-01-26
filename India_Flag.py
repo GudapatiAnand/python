@@ -1,7 +1,7 @@
 import turtle
 from turtle import*
  
-#screen for output
+ #screen for output
 screen = turtle.Screen()
 screen.title("INDIA FLAG")
  

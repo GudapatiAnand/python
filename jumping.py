@@ -15,8 +15,8 @@ continue
 #     print(i)
 
 #continue it will skip the condition and continue the loop
-a="GudapatiAnand"
-for i in a:
-    if i=='A':
-        continue
-    print(i)
+# a="GudapatiAnand"
+# for i in a:
+#     if i=='A':
+#         continue
+#     print(i)

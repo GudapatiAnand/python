@@ -19,35 +19,35 @@ else:
 '''
 
 # here If statement is true
-#if True:
+# if True:
 #    print("i am if")
-#else:
+# else:
 #    print("i am else")
 
 # here If statement is False
-#if False:
+# if False:
 #    print("i am if")
-#else:
+# else:
 #    print("i am else")
 
 #elif statement is true
-#if False:
- #   print("i am if")
-#elif True:
+# if False:
+#    print("i am if")
+# elif True:
 #    print("i am elif")    
-#else:
+# else:
 #    print("i am else")
 
 
 #Nested If
 
-#if True:
+# if True:
 #    print("outer if")
 #    if True:
 #        print("inner if")
 #    else:
 #        print("inner else")
-#else:
+# else:
 #    print("outer else")    
 
 # Sample
@@ -63,9 +63,12 @@ else:
 
 #Shorthand if
 #if condition:statement
-#if 5>2:print("this is if")
+# if 5>2:print("this is if")
 
 #Shorthand if else
 #Statement if condition else Statement
-print("this is if") if 5>2 else print("this is else")
-print("this is if") if 5<2 else print("this is else")
+# print("this is if") if 5>2 else print("this is else")
+# print("this is if") if 5<2 else print("this is else")
+
+n=int(input("Enter the number:"))
+print("Even") if n%2==0 else print("Odd")

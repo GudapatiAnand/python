@@ -1,5 +1,7 @@
 '''
 collection of characters
+
+immutable data type
 '''
 #types of declearing string
 # a='pythonlife'
@@ -43,10 +45,10 @@ title()
 # print(a.startswith("gudapati"))
 # print(a.startswith("d"))
 # print(a.replace('anand', 'Anand'))
-# print(b.index('ANAND'))
-# print(b.find('ANAND'))
-# #print(b.index('anand'))
-# print(b.find('anand'))
+# print(b.index('ANAND')) 
+# print(b.find('ANAND'))  
+# print(b.index('anand'))  #if the substring is not fount it will through value error
+# print(b.find('anand')) #if the substring is not found it will return -1
 # print(b.count('A'))
 # print(b.removeprefix('GUDAPATI'))
 # print(b.removesuffix('ANAND'))
@@ -57,11 +59,11 @@ title()
 # a="   Gudapati Anand   "
 # print(a)
 # print(len(a))
-# b=a.strip()
+# b=a.strip() #it will remove all spaces right and left side of the string.
 # print(len(b))
-# b=a.lstrip()
+# b=a.lstrip() #it will remove all spaces left side of the string
 # print(len(b))
-# b=a.rstrip()
+# b=a.rstrip() #it will remove all spaces right side of the string
 # print(len(b))
 
 
@@ -69,9 +71,9 @@ title()
 # a="hi {} thinara?".format("Anand")
 # print(a)
 
-names=["leela", "Anand", "Priya", "Sai","santhosh"]
-for i in names:
-    print("hi {} thinara?".format(i))
+# names=["leela", "Anand", "Priya", "Sai","santhosh"]
+# for i in names:
+#     print("hi {} thinara?".format(i))
 
 # a="Anand"
 # print(a.isalnum())
@@ -100,16 +102,16 @@ for i in names:
 
 
 
-# d="this is string class"
-# f=d.split()
-# n=[]
-# for i in f:
-#     if i=="is":
-#         i="are"
-#         n.append(i)
-#     elif i=="this":
-#         i="that"
-#         n.append(i)  
-#     else:
-#         n.append(i)
-# print(n)    
+d="this is string class"
+f=d.split()
+n=[]
+for i in f:
+    if i=="is":
+        i="are"
+        n.append(i)
+    elif i=="this":
+        i="that"
+        n.append(i)  
+    else:
+        n.append(i)
+print(n)

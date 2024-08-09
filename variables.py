@@ -1,28 +1,30 @@
 #Variable=value
-#a=10
-#print(a)
+# a=10
+# print(a)
 
 # single value cannot be assin to multiple variables
-#a,b,c=1
-#print(a,b,c)
+# a,b,c=1
+# print(a,b,c)
 
 # multiple values can be assin to multiple variables
-#a,b,c=1,2,3
-#print(a,b,c)
+# a,b,c=1,2,3
+# print(a,b,c)
 
 
 #multiple Values can be assin to a single Variable
-#c=1,2,3
-#print(c)
+# c=1,2,3
+# print(c)
 
 #single value can be assin to multiple Variables like the below 
 #below i used ID method to get the memory address of a variable.
-#c=x=v=33
-#print(c)
-#print(x)
-#print(v)
-#print(c,x,v)
-#print(id(c))
+# c=x=v=33
+# print(c)
+# print(x)
+# print(v)
+# print(c,x,v)
+# print(id(c))
+# print(id(x))
+# print(id(v))
 
 '''
 1.variables can be start with alphabets and _ only
@@ -44,16 +46,16 @@ There are 3 types of variable cases in python
 '''
 
 #camelCase
-gudapatiAnand=1
-print(gudapatiAnand)
+# gudapatiAnand=1
+# print(gudapatiAnand)
 
 #snake_case most of them use snake_case
-gudapati_anand=2
-print(gudapati_anand)
+# gudapati_anand=2
+# print(gudapati_anand)
 
 #snake case can also be used like the below 
-Gudapati_Anand=22
-print(Gudapati_Anand)
+# Gudapati_Anand=22
+# print(Gudapati_Anand)
 
 #PascalCase
 GudapatiAnand=3

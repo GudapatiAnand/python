@@ -3,14 +3,15 @@
 # anand[1]="Name"
 # print(anand)
 
-#leela={"sno":1,"name":"Anand","phno":[12,13]}
-#print(leela.get("name"))
-#print(leela.keys())
-#print(leela.values())
-#print(leela.items())
-#leela.update({"food":"biryani"})
-#leela.pop("sno")
-#print(list(leela))
+# leela={"sno":1,"name":"Anand","phno":[12,13]}
+# print(leela.get("name"))
+# print(leela.keys())
+# print(leela.values())
+# print(leela.items())
+# leela.update({"food":"biryani"})
+# print(leela)
+# leela.pop("sno")
+# print(list(leela))
 
 
 # leela={"sno":1,"name":"Anand","phno":[12,13]}

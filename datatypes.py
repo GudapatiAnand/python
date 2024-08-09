@@ -6,31 +6,31 @@ string
 complex
 '''
 
-#int
-#a=1
-#b=-2
-#print(type(a),type(b))
+# int
+# a=1
+# b=-2
+# print(type(a),type(b))
 
 #boolean
-#a=True
-#b=False
-#print(type(a),type(b))
+# a=True
+# b=False
+# print(type(a),type(b))
 
-#print(True==1)
-#print(False==0)
+# print(True==1)
+# print(False==0)
 
 #Float
-#c=4.44
-#print(type(c))
+# c=4.44
+# print(type(c))
 
 #Complex
-#V=2+4j
-#print(type(V))
+# V=2+4j
+# print(type(V))
 
 #type conversion
 
-#a=2
-#print(float(a))
+# a=2
+# print(float(a))
 
 # b=5.5
 # print(int(b))
@@ -48,5 +48,5 @@ print(d)
 
 #if we want to specify the type of the value we can menction as below
 #here it will accept only the integer values
-f=int(input("enter the value:"))
-print(f)
+# f=int(input("enter the value:"))
+# print(f)

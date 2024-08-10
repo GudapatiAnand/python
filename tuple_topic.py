@@ -1,6 +1,6 @@
-#nagu=(1,2,33,44,2.5)
-#print(type(nagu))
-#print(nagu[0])
+# nagu=(1,2,33,44,2.5)
+# print(type(nagu))
+# print(nagu[0])
 
 #build in functions
 # nagu=(1,2,33,44,2.5)

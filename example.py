@@ -18,9 +18,9 @@
 
 
 #imported functions from function_topic and called the function here
-#from function_topic import *
+# from function_topic import *
 
-#in function we use return so he we have to assign the return value to the variable and then we need to print the variable
+#in function we use return so here we have to assign the return value to the variable and then we need to print the variable
 #the main use of return is to avoid unwanted data to be executed.
 # d=add(1,2)
 # print(d)

@@ -1,5 +1,5 @@
 # file=open("demo.txt",mode='r')
-# c=file.read(7)
+# c=file.read()
 # print(c)
 # file.close()
 
@@ -44,8 +44,8 @@
 
 
 #write file in 'w+' mode
-# with open('demo.txt','w+') as f:
-#     f.write("new text.")
+with open('demo.txt','w+') as f:
+    f.write("new text.")
 
 
 #opening file in 'w+' mode when it does not exist
@@ -66,16 +66,16 @@
 # f.close()
 
 
-# file=open('demo.txt',mode='r+')
-# content=file.read()
-# v=str(content)
-# print(v)
-# f=v.split()
-# print(f)
-# f.insert(2,"chetan")
-# print(file.tell())
-# file.close()
-# file=open('demo.txt',mode='w')
-# print(f)
-# for i in f:
-#     file.writelines([i])
+file=open('demo.txt',mode='r+')
+content=file.read()
+v=str(content)
+print(v)
+f=v.split()
+print(f)
+f.insert(2,"chetan")
+print(file.tell())
+file.close()
+file=open('demo.txt',mode='w')
+print(f)
+for i in f:
+    file.writelines([i])

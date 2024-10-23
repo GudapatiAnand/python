@@ -66,10 +66,19 @@
 # print(f"The maximum value is {max_value} and it appears {max_count} times.")
 
 
-def make_pretty(func):
-    print("I got decorated")
-    func()
+# def make_pretty(func):
+#     print("I got decorated")
+#     func()
 
-@make_pretty
-def ordinary():
-    print("I am ordinary")
+# @make_pretty
+# def ordinary():
+#     print("I am ordinary")
+rows=5  
+for i in range(rows):
+    for j in range (rows):
+        if i%2==0:
+            print("* ",end=" ")
+        else:
+            print(" *",end=" ")
+    print("\r")
+    

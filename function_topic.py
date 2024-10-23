@@ -128,8 +128,14 @@
 # print(aa())
 
 # diff bw filter and map
-nums=[11,22,33,44,55]
-map=list(map(lambda x: x**2, nums))
-print(list(map))
-filter=list(filter(lambda x:x%2==0, nums))
-print(list(filter))
+# nums=[11,22,33,44,55]
+# map=list(map(lambda x: x**2, nums))
+# print(list(map))
+# filter=list(filter(lambda x:x%2==0, nums))
+# print(list(filter))
+
+#squaring the elements using the map and lambda function
+list1=[3,4,5,6]
+list2=list(map(lambda x: x**2, list1))
+print(list2)
+

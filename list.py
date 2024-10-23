@@ -116,3 +116,7 @@ variable.method()
 # fruits=["apple", "banana","cheery","kiwi","mango"]
 # newlist=[x for x in fruits if "a" in x ]
 # print(newlist)
+
+#squring the elements using list compherension
+list1=[3,4,5,6]
+print([x**2 for x in list1])

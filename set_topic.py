@@ -24,11 +24,11 @@
 # print(set1.difference(set2)) # it will print only set1 elements which is not common in both the sets.
 # print(set2.difference(set1)) # it will print only set2 elements which is not common in both the sets.
 # print(set1.symmetric_difference(set2)) # it will remove common elements and print remaining elements from both the sets.
-set1={1,2,3}
-set2={1,2,3,4,5}
+# set1={1,2,3}
+# set2={1,2,3,4,5}
 # print(set1.isdisjoint(set2)) # the elements in both the sets should be different then it will print true
 # print(set1.issubset(set2)) #it will print true if all the elements in set1 should present in set2 and it can be more elements in set2
-print(set2.issuperset(set1)) #it will print true if all the elements in set1 present in set2
+# print(set2.issuperset(set1)) #it will print true if all the elements in set1 present in set2
 
 
 # for i in {1,2,3,4,5,6}:
@@ -43,4 +43,5 @@ print(set2.issuperset(set1)) #it will print true if all the elements in set1 pre
 # j=[1,2,3,4,5]
 # print(type(j))
 # d=frozenset(j)
+# print(type(d))
 # print(list(d))
